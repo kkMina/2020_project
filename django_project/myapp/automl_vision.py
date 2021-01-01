@@ -24,7 +24,7 @@ def automl_vision(file_path):
     # [START automl_vision_classification_predict]
     #print(file_path)
     # autoML JSon 키 설정
-    credential_path = r"/home/ubuntu/django_project/myapp/autoML-9cf17dde7d67.json"
+    #credential_path = r"키.json"
     os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
     project_id = "turing-audio-295713"
     model_id = "IOD2603065191457357824"
