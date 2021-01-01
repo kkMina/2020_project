@@ -26,8 +26,8 @@ def automl_vision(file_path):
     # autoML JSon 키 설정
     #credential_path = r"키.json"
     os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
-    project_id = "turing-audio-295713"
-    model_id = "IOD2603065191457357824"
+    project_id = "수정"
+    model_id = "수정"
 
     # 원본 이미지
     img = cv2.imread(file_path)
