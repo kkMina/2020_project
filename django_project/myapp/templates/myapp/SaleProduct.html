@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>product</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+<table class="table table-striped">
+        <thead>
+        <tr>
+            <td><B>prod_name</B></td>
+            <td><B>prod_price</B></td>
+            <td><B>event_cd</B></td>
+        </tr>
+        </thead>
+        <tbody>
+        {% for product in products%}
+        <tr>
+            <td>{{product.prod_name}}</td>
+            <td>{{product.prod_price}}</td>
+            <td>{{product.event_cd}}</td>
+        </tr>
+        {% endfor %}
+        <tbody>
+    </table>
+</body>
+</html>
