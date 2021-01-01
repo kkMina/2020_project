@@ -245,8 +245,8 @@ def my_detect_text(path):
     """Detects text in the file."""
 
     import os
-    #os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "/home/ubuntu/django_project/myapp/project-201516-4bffd5af4ac2.json"
-    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"/home/ubuntu/django_project/myapp/CVSProject-3f0fef841a96.json"
+    #os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "/home/ubuntu/django_project/myapp/.json"
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"/home/ubuntu/django_project/myapp/cvs파일.json"
     import io
 
     # Imports the Google Cloud client library
